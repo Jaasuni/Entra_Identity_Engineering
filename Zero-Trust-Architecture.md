@@ -46,4 +46,7 @@ This project established a resilient identity perimeter for an M365 tenant, alig
             "excludeLocations": ["[Corporate_HQ_GUID]"]
         }
     }
+<img width="1894" height="877" alt="Zero_Trust_Policies png" src="https://github.com/user-attachments/assets/5546b82a-7ee1-488a-8984-2abd09bfa121" />
 }
+<img width="1869" height="632" alt="Graph_API_Audit png" src="https://github.com/user-attachments/assets/e1ea9da5-9024-4d01-9acd-fc7177b9415c" />
+
