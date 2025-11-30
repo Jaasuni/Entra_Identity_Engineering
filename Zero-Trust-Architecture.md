@@ -54,3 +54,12 @@ This project established a resilient identity perimeter for an M365 tenant, alig
         }
     }
 }
+```
+### 4. Break-Glass Monitoring (KQL)
+*Alert logic: Trigger immediately if the emergency account is used.*
+
+```kusto
+SigninLogs
+| where UserPrincipalName == "admin-emergency@yourtenant.onmicrosoft.com"
+| where ResultType == 0 // Successful Sign-in
+| project TimeGenerated, IPAddress, Location, UserAgent, AppDisplayName
