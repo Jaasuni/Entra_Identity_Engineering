@@ -1,0 +1,43 @@
+{
+    "displayName": "CA-002-RequirePhishingResistant-Admins",
+    "state": "enabled",
+    "conditions": {
+        "userRiskLevels": [],
+        "signInRiskLevels": [],
+        "clientAppTypes": [
+            "all"
+        ],
+        "platforms": null,
+        "locations": null,
+        "users": {
+            "includeRoles": [
+                "62e90394-69f5-4237-9190-012177145e10", 
+                "194ae4cb-b126-40b2-bd5b-6091b380977d"
+            ],
+            "includeUsers": [],
+            "excludeUsers": [],
+            "includeGroups": [],
+            "excludeGroups": [
+                "0e522480-8593-474b-9be9-a47882ff3b22"
+            ],
+            ],
+            "includeJitAccess": false
+        },
+        "applications": {
+            "includeApplications": [
+                "All"
+            ],
+            "excludeApplications": [],
+            "includeUserActions": []
+        }
+    },
+    "grantControls": {
+        "operator": "OR",
+        "builtInControls": [],
+        "customAuthenticationFactors": [],
+        "termsOfUse": [],
+        "authenticationStrength": {
+            "id": "00000000-0000-0000-0000-000000000004"
+        }
+    }
+}
